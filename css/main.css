@@ -101,7 +101,7 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
 }
 
 header .contact-wrapper{
@@ -109,6 +109,7 @@ header .contact-wrapper{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0 auto;
 }
 
 header nav ul {
@@ -116,6 +117,9 @@ header nav ul {
   justify-content: space-around;
 }
 
+footer p{
+  margin: 0 auto;
+}
 
 footer .social-icons {
   display: flex;
@@ -127,6 +131,17 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+
+/* Header styles */
+ 
+header {
+    padding: 15px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -160,6 +175,10 @@ aside{
     align-items: center;
     flex-flow: row wrap;
 
+}
+
+.features p {
+  margin: 0 auto;
 }
 
 .features .feautres-items{
