@@ -96,6 +96,10 @@ footer {
     flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header nav{
   display: flex;
   justify-content: space-around;
@@ -105,7 +109,7 @@ header nav{
 }
 
 header .contact-wrapper{
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
@@ -115,11 +119,27 @@ header .contact-wrapper{
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+.header-divider{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+}
+
+footer {
+  flex-direction: column;
 }
 
 footer p{
   margin: 0 auto;
 }
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
 
 footer .social-icons {
   display: flex;
@@ -138,11 +158,10 @@ footer .content-wrapper {
     margin: 50px 0;
 }
 
-/* Header styles */
- 
-header {
-    padding: 15px 0;
+footer .copyright {
+  margin: 20px 0;
 }
+
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -177,6 +196,12 @@ aside{
 
 }
 
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+
 .features p {
   margin: 0 auto;
 }
@@ -189,7 +214,6 @@ aside{
 
 }
 
-
 /* Reviews */
 
 .reviews{
@@ -200,12 +224,21 @@ aside{
 
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
 /* ==========================================================================
    About Page
    ========================================================================== */
 
 .mission{
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
@@ -213,12 +246,17 @@ aside{
 }
 
 .contact-section{
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 
 }
+
+.contact-content p {
+  margin: 0;
+}
+
 
 /* ==========================================================================
    FAQ Page
@@ -238,6 +276,15 @@ aside{
     align-items: center;
     flex-flow: row wrap;
 }
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
 
 /* ==========================================================================
    Helper classes
