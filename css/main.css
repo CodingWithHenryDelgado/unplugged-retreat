@@ -689,6 +689,11 @@
         font-size: 1.125em;
         line-height: 1.333;
     }
+
+    img{
+      width: 100%;
+    }
+    
     /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
