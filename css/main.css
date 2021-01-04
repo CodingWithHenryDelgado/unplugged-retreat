@@ -248,6 +248,13 @@
   footer .copyright {
     margin: 20px 0;
   }
+
+  .social-icons i {
+    margin: 0 10px;
+    background: #527158;
+    border: #527158 solid 10px;
+    border-radius: 50%;
+  }
   
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
